@@ -15,7 +15,8 @@ The goal of this application is to learn Java and Spring ecosystem
 ## Roadmap
 
 ### Bootstrap
-- [ ] Initialize an empty Spring Boot project with Maven
+
+- [x] Initialize an empty Spring Boot project with Maven
 - [x] Learn bases of Spring
 - [x] Learn initialization of Spring
 - [x] Learn Spring Web REST API
@@ -23,6 +24,7 @@ The goal of this application is to learn Java and Spring ecosystem
 - [ ] Create controller + service + repository + Domain architecture
 
 ### Create base of the API
+
 - [ ] See Spring IOC
 - [ ] See Spring MVC
 - [ ] See Spring Data
@@ -31,6 +33,7 @@ The goal of this application is to learn Java and Spring ecosystem
 - [ ] Add picture of the whiskey
 
 ### Persistence
+
 - [ ] Create schema of database
 - [ ] Add PostreSQL (and docker-compose)
 - [ ] Use JPA to save data
@@ -39,12 +42,14 @@ The goal of this application is to learn Java and Spring ecosystem
 - [ ] See CAP Theorem + ACID
 
 ### Utils elements
+
 - [ ] Add logger (slf4j)
 - [ ] Add application.properties for configuration
 - [ ] Use profiles of Spring
 - [ ] Add OpenAPI / Swagger
 
 ### Authentication
+
 - [ ] Add users and roles in database
 - [ ] Add Basic authentication
 - [ ] Add JWT authentication
@@ -53,12 +58,14 @@ The goal of this application is to learn Java and Spring ecosystem
 - [ ] Add API Audit to see which save data
 
 ### Advanced features
+
 - [ ] Add scheduler to scrap whiskey external database (Use Future)
 - [ ] Add route to autocomplete whiskey
 - [ ] Add cache with Redis for autocomplete
 - [ ] Add average score for whiskeys
 
 ### Testing
+
 - [ ] Use JUnit for unit testing
 - [ ] Use TestContainer for E2E testing
 
