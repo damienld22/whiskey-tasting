@@ -16,4 +16,26 @@ public class TastingRepositoryImpl implements TastingRepository {
     public List<Tasting> getAll() {
         return new ArrayList<>(tastings.values());
     }
+
+    @Override
+    public Tasting getById(UUID id) {
+        return tastings.get(id);
+    }
+
+    @Override
+    public Tasting create(Tasting tasting) {
+        tastings.put(tasting.getId(), tasting);
+        return tasting;
+    }
+
+    @Override
+    public void deleteById(UUID id) {
+        tastings.remove(id);
+    }
+
+    @Override
+    public Tasting updateById(UUID id, Tasting tasting) {
+        tastings.put(id, tasting);
+        return tasting;
+    }
 }
