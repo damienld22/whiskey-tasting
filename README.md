@@ -21,13 +21,13 @@ The goal of this application is to learn Java and Spring ecosystem
 - [x] Learn initialization of Spring
 - [x] Learn Spring Web REST API
 - [ ] Java app in Docker (See official images)
-- [ ] Create controller + service + repository + Domain architecture
+- [x] Create controller + service + repository + Domain architecture
 
 ### Create base of the API
 
-- [ ] See Spring IOC
-- [ ] See Spring MVC
-- [ ] See Spring Data
+- [x] See Spring IOC
+- [x] See Spring MVC
+- [x] See Spring Data
 - [ ] Create in memory (HashMap) controller + repo
 - [ ] Add body validation and proper error message with ControllerAdvice
 - [ ] Add picture of the whiskey
