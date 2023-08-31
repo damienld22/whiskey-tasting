@@ -21,7 +21,7 @@ The goal of this application is to learn Java and Spring ecosystem
 - [x] Learn initialization of Spring
 - [x] Learn Spring Web REST API
 - [x] Create controller + service + repository + Domain architecture
-- [ ] Java app in Docker (See official images)
+- [x] Java app in Docker (See official images)
 
 ### Create base of the API
 
@@ -124,3 +124,18 @@ The goal of this application is to learn Java and Spring ecosystem
 
 - id (UUID)
 - name
+
+## Run / Deploy
+
+### Create the Docker image
+
+```bash
+cd ./whiskey-tasting-backend
+docker build --tag whiskey-tasting-backend .
+```
+
+### Run the container
+
+```bash
+docker run -p 8080:8080 whiskey-tasting-backend
+```
