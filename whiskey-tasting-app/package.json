@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "framework7": "^8.3.0",
+    "framework7-icons": "^5.0.5",
     "framework7-vue": "^8.3.0",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
