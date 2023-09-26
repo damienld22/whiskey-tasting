@@ -1,16 +1,13 @@
-<script setup></script>
+<script setup>
+const f7Params = {
+  name: 'Whiskey tasting'
+}
+</script>
 
 <template>
-  <header>
-    <p>header</p>
-  </header>
-
-  <RouterView />
+  <f7-app v-bind="f7Params">
+    <f7-navbar :title="f7Params.name"></f7-navbar>
+  </f7-app>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-</style>
+<style scoped></style>
